@@ -1,0 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.wrapper {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+.wrapper_form {
+	margin: auto;
+}
+form {
+	max-width: 400px;
+ }
+fieldset {
+    border: 1px solid #000;
+    margin: 20px auto;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, .2);
+    padding: 15px 10px;
+}
+.form-control {
+	padding: 5px;
+}
+input[type="text"] {
+	 display: block;
+	 width: 100%;
+	 border: 1px solid black;
+	 padding: 5px;
+	 margin: 5px;
+}
+span {
+	display: block;
+}
+.Knopa {
+    display: inline-block;
+    width: 100px;
+    background-color: #000;
+    border: 1px solid #000;
+    color: white;
+}
